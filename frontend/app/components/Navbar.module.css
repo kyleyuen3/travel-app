@@ -1,0 +1,23 @@
+/* CSS file for Navbar */
+
+/* Navbar */
+.nav {
+    padding: 16px 24px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+/* links on the navbar */
+.link {
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+}
+
+/* Link when hovering navbar */
+.link:hover {
+    text-decoration: underline;
+}
+

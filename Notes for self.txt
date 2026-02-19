@@ -1,0 +1,11 @@
+font-weight controls the thickness of the letters
+- low number = thinner (100)
+- big number = thicker (700 is default bold)
+- can write as number or words
+
+grid-template-columns: repeat(4, 1fr);
+- Creates 4 equal-width columns in the grid
+- Each column takes up 1 fraction (1fr) of the available space
+- | card | card | card | card |
+
+

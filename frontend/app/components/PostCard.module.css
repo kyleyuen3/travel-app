@@ -1,0 +1,31 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.body {
+    padding: 16px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.meta {
+    font-size: 14px;
+    color: gray;
+}
+
+.description {
+    margin-top: 8px;
+    font-size: 15px;
+}
