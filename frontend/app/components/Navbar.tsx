@@ -7,7 +7,7 @@ export default function Navbar(){
             <Link className={styles.link} href="/">Home</Link>
             <Link className={styles.link} href="/browse">Browse</Link>
             <Link className={styles.link} href="/post">Post</Link>
-            <Link className={styles.link} href="/profile">Profile</Link>
+            <Link className={styles.link} href="/profile">Login</Link>
         </nav>
     );
 }
