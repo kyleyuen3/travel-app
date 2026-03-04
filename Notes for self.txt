@@ -8,4 +8,9 @@ grid-template-columns: repeat(4, 1fr);
 - Each column takes up 1 fraction (1fr) of the available space
 - | card | card | card | card |
 
-
+Today's progress 3/3:
+- Built PostCard component
+- Implemented Browse page with dynamic posts
+- Added local images via public folder
+- Created landing page with featured posts
+- Styled with CSS modules
