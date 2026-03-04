@@ -1,19 +1,216 @@
 /* CSS file for home page */
 
-/* container for home page */
+/* Controls page width and center alignment */
 .container {
-    padding: 60px 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 20px 70px;
 }
 
-/* title styling for home page */
+
+/* Top landing section with title + buttons */
+.hero {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.heroText {
+  padding-top: 10px;
+}
+
+
+/* Main headline and description text */
 .title {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 16px;
+  margin: 0;
+  font-size: 56px;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
 }
 
-/* subtitle styling for home page */
 .subtitle {
-    font-size: 18px;
-    color: #666;
+  margin-top: 12px;
+  font-size: 18px;
+  color: #666;
+  max-width: 520px;
+  line-height: 1.5;
+}
+
+
+/* Browse + Create Post buttons */
+.actions {
+  margin-top: 18px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primaryBtn {
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.primaryBtn:hover {
+  opacity: 0.9;
+}
+
+.secondaryBtn {
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #111;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.secondaryBtn:hover {
+  background: #f6f6f6;
+}
+
+.note {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #888;
+}
+
+
+/* Right side stat card with quick preview */
+.heroCard {
+  border: 1px solid #eee;
+  border-radius: 18px;
+  padding: 16px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+
+/* Featured posts / countries / app MVP */
+.statRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.stat {
+  border: 1px solid #f0f0f0;
+  border-radius: 14px;
+  padding: 12px;
+  background: #fafafa;
+}
+
+.statNumber {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+.statLabel {
+  font-size: 12px;
+  color: #666;
+}
+
+
+/* Small featured items inside hero card */
+.miniPreview {
+  margin-top: 14px;
+}
+
+.miniTitle {
+  font-weight: 800;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.miniGrid {
+  display: grid;
+  gap: 10px;
+}
+
+.miniItem {
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid #eee;
+  background: #fff;
+}
+
+.miniImg {
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.miniName {
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.miniMeta {
+  font-size: 12px;
+  color: #666;
+  margin-top: 2px;
+}
+
+
+/* Section title + grid of PostCards */
+.section {
+  margin-top: 44px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.sectionLink {
+  color: #111;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.sectionLink:hover {
+  text-decoration: underline;
+}
+
+
+/* Layout for featured post cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+
+/* Adjust layout for smaller screens */
+@media (max-width: 900px) {
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 44px;
+  }
+
 }
