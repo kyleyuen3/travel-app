@@ -4,17 +4,38 @@ import PostCard from "../components/PostCard";
 export default function BrowsePage(){
     const posts = [
         {
-            title: "Best Ramen in Tokyo",
-            city: "Tokyo",
-            country: "Japan",
-            description: "Small shop near Shinjuku — rich broth, fast line.",
+            title: "Taiwan Night Life",
+            city: "Taipei",
+            country: "Taiwan",
+            description: "Club in taiwan.",
             imageUrl: "https://images.unsplash.com/photo-1542528180-a1208c5169a5?auto=format&fit=crop&w=1200&q=80"
         },
         {
-            title: "Sunset Beach Walk",
-            city: "Oahu",
-            country: "USA",
-            description: "Peaceful walk with unreal sunsets.",
+            title: "Jiu Fen",
+            city: "Jiu Fen",
+            country: "Taiwan",
+            description: "Small shopping district with food vendors and shops on a mountain.",
+            imageUrl: "https://images.unsplash.com/photo-1542528180-a1208c5169a5?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+            title: "Raohe Night Market",
+            city: "Raohe",
+            country: "Taiwan",
+            description: "Night Markete with numerous food stalls of unique and cheap food",
+            imageUrl: "https://images.unsplash.com/photo-1542528180-a1208c5169a5?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+            title: "Taipei 101",
+            city: "Taipei",
+            country: "Taiwan",
+            description: "Tower in Taipei with nice views and cafe on the 86th floor",
+            imageUrl: "https://images.unsplash.com/photo-1542528180-a1208c5169a5?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+            title: "Elephant Peak",
+            city: "Taipei",
+            country: "Taiwan",
+            description: "Peaceful hike with a bit of incline.",
             imageUrl: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80"
         }
     ];
