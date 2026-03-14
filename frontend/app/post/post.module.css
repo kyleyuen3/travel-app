@@ -1,13 +1,16 @@
+/* container styling */
 .container {
   max-width: 800px;
   margin: 40px auto;
 }
 
+/* title styling */
 .title {
   font-size: 36px;
   font-weight: bold;
 }
 
+/* form styling */
 .form {
   display: flex;
   flex-direction: column;
@@ -15,6 +18,14 @@
   margin-top: 20px;
 }
 
+/* for fields */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* input and textarea styling */
 .input,
 .textarea {
   padding: 10px;
@@ -22,11 +33,14 @@
   border-radius: 8px;
 }
 
+/* button styling */
 .button {
-  padding: 10px;
+  padding: 10px 18px;
   border: none;
   background: black;
   color: white;
   border-radius: 8px;
   cursor: pointer;
+  width: fit-content;
+  align-self: center;
 }
