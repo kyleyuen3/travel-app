@@ -21,7 +21,7 @@ export default function BrowsePage(){
             title: "Raohe Night Market",
             city: "Raohe",
             country: "Taiwan",
-            description: "Night Markete with numerous food stalls of unique and cheap food",
+            description: "Night Market with numerous food stalls of unique and cheap food",
             imageUrl: "/raohe.jpg"
         },
         {
