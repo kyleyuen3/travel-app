@@ -41,8 +41,8 @@ export default function BrowsePage(){
     ];
     return (
         <main className={styles.container}>
-            <h1 className={styles.title}>Browse</h1>
-            <p className={styles.text}>View and upload travel posts.</p>
+            <h1 className={styles.title}>Explore Destinations</h1>
+            <p className={styles.text}>Discover places shared by travelers around the world</p>
             <div className={styles.grid}>
                 {posts.map((post, index) => (
                     <PostCard

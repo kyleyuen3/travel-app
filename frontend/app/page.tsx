@@ -38,7 +38,7 @@ export default function HomePage() {
     <main className={styles.container}>
       <section className={styles.hero}>
         <div className={styles.heroText}>
-          <h1 className={styles.title}>Whats the Move</h1>
+          <h1 className={styles.title}>Waypoint</h1>
           <p className={styles.subtitle}>
             Discover and share the best places around the world.
           </p>
