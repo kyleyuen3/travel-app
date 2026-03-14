@@ -14,3 +14,12 @@ Today's progress 3/3:
 - Added local images via public folder
 - Created landing page with featured posts
 - Styled with CSS modules
+
+Today's progress 3/13:
+- Learned what <form> does
+  - <form> is the whole box that holds the user input area inside it go things like:
+    - input
+    - label
+    - text area
+    - buttons
+- 
